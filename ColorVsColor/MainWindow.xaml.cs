@@ -160,7 +160,7 @@ namespace ColorVsColor
                     hexValue = "0" + hexValue;
                 hexValue = sliderValue + hexValue;
             }
-            else
+            else//
             {
                 var sliderValue = Convert.ToString(Convert.ToInt32(sliderForm.Value), 16);
                 while (hexValue.Length < 6)

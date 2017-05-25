@@ -4,6 +4,7 @@ namespace ColorVsColor
 {
     public class ARGB
     {
+        //
         public byte A { get; set; }
         public byte R { get; set; }
         public byte G { get; set; }
